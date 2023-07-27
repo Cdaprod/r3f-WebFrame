@@ -1,18 +1,16 @@
-import React from 'react';
-import { HemisphereLight } from '@react-three/drei';
+import React, { FC, Fragment } from 'react';
 import Repo3DPreview from '../Components/Repo3DPreview';
 import RandomGeometries from '../Components/RandomGeometries';
-import WebFrame from '../Components/WebFrame';
+import WebFrame from '../WebFrame';
 
-const MainScene: React.FC = () => {
+const MainScene: FC = () => {
   return (
-    <>
-      <HemisphereLight groundColor="red" />
-      <WebFrame />
-      <Repo3DPreview />
-      <RandomGeometries />
-    </>
-  );
+    <Fragment>
+      <WebFrame>
+      <Repo3DPreview>
+      <RandomGeometries>
+    </Fragment>
+  )
 }
 
 export default MainScene;

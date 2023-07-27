@@ -23,7 +23,7 @@ const RandomGeometries: React.FC = () => {
   )
 
   return (
-    <>
+    <Fragment>
       {randProps.map((prop, index) => (
         <Float key={index}>
           <mesh
@@ -38,7 +38,7 @@ const RandomGeometries: React.FC = () => {
           />
         </Float>
       ))}
-    </>
+    </Fragment>
   )
 }
 

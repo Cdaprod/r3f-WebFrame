@@ -47,3 +47,4 @@ export const fetchRepos = async (): Promise<Repository[]> => {
   const { data } = await client.query<RepositoriesResponse>({ query })
   return data.viewer.repositories.nodes
 }
+export default GithubAPI
