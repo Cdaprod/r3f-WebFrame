@@ -6,7 +6,7 @@ import WebFrame from '../Components/WebFrame'
 const MainScene: FC = () => {
   return (
     <Fragment>
-      <WebFrame />
+      <WebFrame position={[0, 0, 0]} />
       <Repo3DPreview />
       <RandomGeometries />
     </Fragment>

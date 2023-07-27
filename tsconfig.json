@@ -1,9 +1,9 @@
 {
-  "include": ["./src/**/*"],
+  "include": ["./src/**/*", "./src/**/*.tsx"],
   "compilerOptions": {
     "strict": false,
     "esModuleInterop": true,
     "lib": ["dom", "es2015"],
-    "jsx": "react"
+    "jsx": "react-jsx"
   }
 }

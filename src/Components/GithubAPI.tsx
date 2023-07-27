@@ -1,5 +1,6 @@
 // GithubAPI.ts
 import { ApolloClient, InMemoryCache, gql, type NormalizedCacheObject } from '@apollo/client'
+import type { NormalizedCacheObject } from '@apollo/client'
 
 interface Repository {
   name: string
